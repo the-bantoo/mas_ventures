@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include mas_ventures *.css
+recursive-include mas_ventures *.csv
+recursive-include mas_ventures *.html
+recursive-include mas_ventures *.ico
+recursive-include mas_ventures *.js
+recursive-include mas_ventures *.json
+recursive-include mas_ventures *.md
+recursive-include mas_ventures *.png
+recursive-include mas_ventures *.py
+recursive-include mas_ventures *.svg
+recursive-include mas_ventures *.txt
+recursive-exclude mas_ventures *.pyc
